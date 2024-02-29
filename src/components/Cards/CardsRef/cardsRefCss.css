@@ -1,0 +1,36 @@
+.cardReference{
+    border-style: solid;
+    border-color: rgba(22, 99, 3, 0.562);
+    border-width: 2px;
+    width: 40%;
+    height: 40%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.cardReference p{
+    margin-bottom: 1rem;
+}
+span{
+    color: #079112ce;
+}
+
+@media(max-width:1279px){
+
+    
+
+}
+@media screen and (max-width: 580px) {
+    
+    .cardReference {
+        border-style: solid;
+        border-color: rgba(22, 99, 3, 0.562);
+        border-width: 2px;
+        width: 80%;
+        height: 40%;
+        margin: 2rem;
+        padding: 1rem;
+      }
+  
+  
+  }

@@ -1,0 +1,60 @@
+.father-profile{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 70vw;
+}
+
+.text-profile p{
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.title-container-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    border-color: #9bf27cab;
+    border-width: 8px;
+    border-style: solid;
+    border-top: 0; border-left: 0; border-right: 0;
+    margin-bottom: 3rem;
+    width: 70vw;
+}
+
+
+
+.title-container-profile img{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+
+@media(max-width:1279px){
+
+    .father-project{
+        width: 70vw;
+    }
+   
+    .text-profile p{
+        font-size: 1rem;
+    }
+
+    
+}
+      
+
+@media screen and (max-width: 580px) {
+    
+    .father-profile {
+        width: 90vw;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+  
+  
+  }

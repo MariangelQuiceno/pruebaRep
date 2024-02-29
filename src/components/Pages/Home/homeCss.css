@@ -1,0 +1,63 @@
+.father-home {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+  }
+
+.father-home img{
+    margin-top: 5rem;
+    width: 36rem;
+    height: 24rem;
+}
+
+.father-home h1{
+    font-size:4rem;
+    margin-top: 5rem;
+    color: black
+}
+
+.father-home h1:hover{
+    text-shadow: 2px 2px #7bb78b8d;
+}
+
+
+
+
+
+@media(max-width:1279px){
+
+    .father-home img {
+        margin-top: 3rem;
+        width: 9rem;
+        height: 8rem;
+      }
+
+      .father-home{
+        width: 70vw
+          
+    
+    }
+
+    .father-home h1 {
+        font-size: 2rem;
+      }
+ 
+    
+}
+
+@media screen and (max-width: 580px) {
+    
+    .father-home {
+        width: 100vw;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+  
+  }
+  

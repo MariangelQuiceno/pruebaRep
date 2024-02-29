@@ -1,0 +1,117 @@
+
+header img{
+    width: 53%;
+    height: 25%;
+    margin-top: 5%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(4, 59, 13, 0.42);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.line{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    margin-top: 5%;
+    width: 100%;
+}
+
+ul{
+    text-align: center;
+    width: 80%;
+}
+
+li{
+    margin-top: 1rem;
+    list-style: none; 
+}
+
+a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(228, 255, 231);
+    font-size: 2rem;
+}
+
+
+a:hover{
+    color: white;
+    text-shadow: 2px 2px #78a5848d;
+    box-shadow: 2px 2px 2px 1px rgba(4, 59, 13, 0.42);
+
+}
+
+.iconsHeader{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.iconsHeader a:hover{
+    color: rgb(166, 255, 170);
+    text-shadow: 2px 2px #78a58400;
+    box-shadow: 2px 2px 2px 1px rgba(4, 59, 13, 0);
+}
+
+
+
+@media(max-width:1279px){
+
+    
+img{
+    width: 58%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+a{
+    
+    font-size: 20px;
+}
+
+ul {
+    width: 63%;
+  }
+
+.logoSena{
+    width: 6rem;
+  height: 6rem;
+}
+
+  }
+  
+  @media screen and (max-width: 580px) {
+    
+    
+.line{
+    display: none;
+}
+
+.Img-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    
+    font-size: 15px;
+}
+
+
+
+
+  }
+  
